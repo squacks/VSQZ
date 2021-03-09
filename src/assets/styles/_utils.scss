@@ -1,0 +1,34 @@
+.btn {
+  display: inline-block;
+  color: var(--c-black);
+  background-color:#fdfdfdf2;
+  box-shadow: var(--shadow-applet),var(--shadow-half-pixel-border);
+  border-radius: 999em;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 150ms ease,color 150ms ease,transform 150ms ease,box-shadow 150ms ease;
+  outline:none;
+  text-decoration: none;
+ }
+ .btn:hover {
+  background-color:#e5e5e5f2;
+  color:var(--c-black);
+ }
+ @supports (-webkit-backdrop-filter: blur(8px)) {
+  .btn {
+   background-color:#fdfdfdd9;
+   -webkit-backdrop-filter:blur(var(--backdrop-blur-radius));
+  }
+  .btn:hover {
+   background-color:#e5e5e5e6;
+  }
+ }
+ .btn:active,
+ .btn:focus {
+  transform:translate3d(0px,1px,0px);
+ }
+ .btn:focus-visible {
+  color:var(--c-black);
+  box-shadow:var(--shadow-applet-3),var(--shadow-two-pixel-border);
+ }
