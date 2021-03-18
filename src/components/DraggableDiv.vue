@@ -112,7 +112,7 @@ export default {
   box-shadow: var(--shadow-applet-2);
   // background-color: var(--c-plain-white);
   border-radius: var(--border-radius-applet);
-  transform: translate3d(var(--x, 0px),var(--y, 0px),0px)!important;
+  transform: translate3d(var(--x, 0px),var(--y, 0px),0px);
   &-note {
     width: 400px;
     align-items: stretch;

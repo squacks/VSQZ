@@ -4,8 +4,8 @@
   https://codepen.io/al-ro/pen/dEmvyy 
 -->
   <div class="wallpaper">
-    <!-- <canvas id="canvas" width="1400" height="600"></canvas> -->
-    <canvas id="wallpaper" width="1400" height="600"></canvas>
+    <canvas id="canvas" width="1400" height="600"></canvas>
+    <!-- <canvas id="wallpaper" width="1400" height="600"></canvas> -->
   </div>
 </template>
 
